@@ -1,0 +1,59 @@
+Vrsion Number:	1.2
+Product Line:	MOXA UPort Series
+Platform:    	Linux kernel 2.6.x & above(x86/x64)
+Company:	Moxa Inc.
+Date:		07/13/2012
+
+
+Support Product:
+===============
+UPort 1250, 1250I
+UPort 1410, 1450, 1450I 
+UPort 1610-8, 1650-8 
+UPort 1610-16, 1650-16 
+
+
+Tested Linux: 
+=============
+Kernel 3.4.4
+Kernel 3.2.0
+Kernel 2.6.39
+Kernel 2.6.36
+Kernel 2.6.30.1
+Kernel 2.6.30
+Kernel 2.6.28
+Kernel 2.6.26
+Fedora 8 (2.6.23)
+Fedora 7 (2.6.22)
+Fedora Core 6 (2.6.18)
+Fedora Core 5 (2.6.15)
+Fedora Core 4 (2.6.11)
+Fedora Core 3 (2.6.9)
+Fedora Core 2 (2.6.5)
+
+SuSE 10.3 (2.6.22)
+SuSE 10.1 (2.6.16)
+SuSE 9.3 (2.6.11)
+
+Ubuntu 12.04 (3.2.0)
+Ubuntu 8.04 (2.6.24)
+Ubuntu 7.10 (2.6.22)
+
+Red Hat Enterprise Linux Release 4 (2.6.9)
+
+
+Release Note:
+==============
+Ver1.2
+1. New: Support kernel version up to 3.4.4
+2. Bugfix: Fix bug of compiling fail under gcc version 3.3.3. 
+3. Bugfix: Fixed system memory leak when application keeps doing open/close operations for a long time execution.
+4. Bugfix: Fixed application hang up when open/close frequencytly.
+
+Ver1.1
+1. New: Support auto installation.
+
+Ver1.0
+1. New: Official released.
+
+-End-
